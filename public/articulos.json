@@ -1,0 +1,1043 @@
+{
+    "categorias": {
+      "comidas": {
+        "id": "01",
+        "subcategorias": {
+          "servicios": {
+            "id": "0101",
+            "articulos": [
+              {
+                "id": "010101",
+                "nombre": "Servicio de Delivery",
+                "precio_salon": 1000,
+                "precio_pedidos_ya": 0,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              },
+              {
+                "id": "010102",
+                "nombre": "Servicio de Mesa",
+                "precio_salon": 1000,
+                "precio_pedidos_ya": 0,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              },
+              {
+                "id": "010103",
+                "nombre": "Pedidos Ya",
+                "precio_salon": 0,
+                "precio_pedidos_ya": 0,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              },
+              {
+                "id": "010104",
+                "nombre": "Pax",
+                "precio_salon": 0,
+                "precio_pedidos_ya": 0,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              },
+              {
+                "id": "010105",
+                "nombre": "Pax Delivery",
+                "precio_salon": 0,
+                "precio_pedidos_ya": 0,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              },
+              {
+                "id": "010106",
+                "nombre": "Enviar Aderezos",
+                "precio_salon": 0,
+                "precio_pedidos_ya": 0,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              }
+            ]
+          },
+          "entradas": {
+            "id": "0102",
+            "articulos": [
+              {
+                "id": "010201",
+                "nombre": "Papas Fritas",
+                "precio_salon": 11800,
+                "precio_pedidos_ya": 12100,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              },
+              {
+                "id": "010202",
+                "nombre": "Papas Barstow",
+                "precio_salon": 13200,
+                "precio_pedidos_ya": 13600,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              },
+              {
+                "id": "010203",
+                "nombre": "Coconut Shrimp",
+                "precio_salon": 16000,
+                "precio_pedidos_ya": 16800,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              },
+              {
+                "id": "010204",
+                "nombre": "Ribs & Chips",
+                "precio_salon": 16500,
+                "precio_pedidos_ya": 0,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              },
+              {
+                "id": "010205",
+                "nombre": "Rabas",
+                "precio_salon": 15800,
+                "precio_pedidos_ya": 0,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              },
+              {
+                "id": "010206",
+                "nombre": "Duo de Empanadas",
+                "precio_salon": 8700,
+                "precio_pedidos_ya": 9100,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              },
+              {
+                "id": "010207",
+                "nombre": "Muzzarellitas",
+                "precio_salon": 13800,
+                "precio_pedidos_ya": 14200,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              },
+              {
+                "id": "010208",
+                "nombre": "Chicken Bites",
+                "precio_salon": 13800,
+                "precio_pedidos_ya": 14200,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              }
+            ]
+          },
+          "hamburguesas": {
+            "id": "0103",
+            "articulos": [
+              {
+                "id": "010301",
+                "nombre": "Cheeseburger Simple sin papas",
+                "precio_salon": 10800,
+                "precio_pedidos_ya": 11100,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              },
+              {
+                "id": "010302",
+                "nombre": "Cheeseburger",
+                "precio_salon": 16900,
+                "precio_pedidos_ya": 17600,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              },
+              {
+                "id": "010303",
+                "nombre": "Cheeseburger Simple",
+                "precio_salon": 13900,
+                "precio_pedidos_ya": 14500,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              },
+              {
+                "id": "010304",
+                "nombre": "Cheeseburger Veggie",
+                "precio_salon": 16900,
+                "precio_pedidos_ya": 17600,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              },
+              {
+                "id": "010305",
+                "nombre": "Denver",
+                "precio_salon": 16900,
+                "precio_pedidos_ya": 17600,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              },
+              {
+                "id": "010306",
+                "nombre": "Denver Simple",
+                "precio_salon": 13900,
+                "precio_pedidos_ya": 14500,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              },
+              {
+                "id": "010307",
+                "nombre": "Chicago",
+                "precio_salon": 17500,
+                "precio_pedidos_ya": 18200,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              },
+              {
+                "id": "010308",
+                "nombre": "Chicago Simple",
+                "precio_salon": 14800,
+                "precio_pedidos_ya": 15500,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              },
+              {
+                "id": "010309",
+                "nombre": "Chicago Veggie",
+                "precio_salon": 17500,
+                "precio_pedidos_ya": 18200,
+                "stock": null,
+                "descontinuado": false,
+                "especificaciones": []
+              },
+                {
+                  "id": "010310",
+                  "nombre": "BTW Melt",
+                  "precio_salon": 16900,
+                  "precio_pedidos_ya": 17600,
+                  "stock": null,
+                  "descontinuado": false,
+                  "especificaciones": []
+                },
+                {
+                  "id": "010311",
+                  "nombre": "BTW Melt Simple",
+                  "precio_salon": 13900,
+                  "precio_pedidos_ya": 14500,
+                  "stock": null,
+                  "descontinuado": false,
+                  "especificaciones": []
+                },
+                {
+                  "id": "010312",
+                  "nombre": "BTW Melt Veggie",
+                  "precio_salon": 16900,
+                  "precio_pedidos_ya": 17600,
+                  "stock": null,
+                  "descontinuado": false,
+                  "especificaciones": []
+                },
+                {
+                  "id": "010313",
+                  "nombre": "Michigan",
+                  "precio_salon": 15400,
+                  "precio_pedidos_ya": 16100,
+                  "stock": null,
+                  "descontinuado": false,
+                  "especificaciones": []
+                },
+                {
+                  "id": "010314",
+                  "nombre": "Michigan Veggie",
+                  "precio_salon": 15400,
+                  "precio_pedidos_ya": 16100,
+                  "stock": null,
+                  "descontinuado": false,
+                  "especificaciones": []
+                },
+                {
+                  "id": "010315",
+                  "nombre": "Las Vegas",
+                  "precio_salon": 17500,
+                  "precio_pedidos_ya": 18200,
+                  "stock": null,
+                  "descontinuado": false,
+                  "especificaciones": []
+                },
+                {
+                  "id": "010316",
+                  "nombre": "Las Vegas Simple",
+                  "precio_salon": 14900,
+                  "precio_pedidos_ya": 15500,
+                  "stock": null,
+                  "descontinuado": false,
+                  "especificaciones": []
+                },
+                {
+                  "id": "010317",
+                  "nombre": "Las Vegas Veggie",
+                  "precio_salon": 17500,
+                  "precio_pedidos_ya": 18200,
+                  "stock": null,
+                  "descontinuado": false,
+                  "especificaciones": []
+                },
+                {
+                  "id": "010318",
+                  "nombre": "Cincinnati",
+                  "precio_salon": 14900,
+                  "precio_pedidos_ya": 15600,
+                  "stock": null,
+                  "descontinuado": false,
+                  "especificaciones": []
+                },
+                {
+                  "id": "010319",
+                  "nombre": "Jacksonville",
+                  "precio_salon": 17600,
+                  "precio_pedidos_ya": 18300,
+                  "stock": null,
+                  "descontinuado": false,
+                  "especificaciones": []
+                },
+                {
+                  "id": "010320",
+                  "nombre": "Jacksonville Simple",
+                  "precio_salon": 14900,
+                  "precio_pedidos_ya": 15500,
+                  "stock": null,
+                  "descontinuado": false,
+                  "especificaciones": []
+                },
+                {
+                  "id": "010321",
+                  "nombre": "Jacksonville Veggie",
+                  "precio_salon": 17600,
+                  "precio_pedidos_ya": 18300,
+                  "stock": null,
+                  "descontinuado": false,
+                  "especificaciones": []
+                },
+                {
+                  "id": "010322",
+                  "nombre": "Smash Melt",
+                  "precio_salon": 17600,
+                  "precio_pedidos_ya": 18300,
+                  "stock": null,
+                  "descontinuado": false,
+                  "especificaciones": []
+                },
+                {
+                  "id": "010323",
+                  "nombre": "Smash Melt Simple",
+                  "precio_salon": 14900,
+                  "precio_pedidos_ya": 15500,
+                  "stock": null,
+                  "descontinuado": false,
+                  "especificaciones": []
+                },
+                {
+                  "id": "010324",
+                  "nombre": "Smash Melt Veggie",
+                  "precio_salon": 17600,
+                  "precio_pedidos_ya": 18300,
+                  "stock": null,
+                  "descontinuado": false,
+                  "especificaciones": []
+                },
+                {
+                  "id": "010325",
+                  "nombre": "Bacon Jam",
+                  "precio_salon": 17500,
+                  "precio_pedidos_ya": 18100,
+                  "stock": null,
+                  "descontinuado": false,
+                  "especificaciones": []
+                },
+                {
+                  "id": "010326",
+                  "nombre": "Bacon Jam Simple",
+                  "precio_salon": 14900,
+                  "precio_pedidos_ya": 15500,
+                  "stock": null,
+                  "descontinuado": false,
+                  "especificaciones": []
+                },
+                {
+                  "id": "010327",
+                  "nombre": "Bacon Jam Veggie",
+                  "precio_salon": 17500,
+                  "precio_pedidos_ya": 18100,
+                  "stock": null,
+                  "descontinuado": false,
+                  "especificaciones": []
+                },
+                {
+                  "id": "010328",
+                  "nombre": "Not Vegas",
+                  "precio_salon": 15400,
+                  "precio_pedidos_ya": 16100,
+                  "stock": null,
+                  "descontinuado": false,
+                  "especificaciones": []
+                },
+                {
+                  "id": "010329",
+                  "nombre": "Barstow BBQ",
+                  "precio_salon": 17900,
+                  "precio_pedidos_ya": 18600,
+                  "stock": null,
+                  "descontinuado": false,
+                  "especificaciones": []
+                },
+                {
+                  "id": "010330",
+                  "nombre": "Barstow BBQ Simple",
+                  "precio_salon": 14900,
+                  "precio_pedidos_ya": 15500,
+                  "stock": null,
+                  "descontinuado": false,
+                  "especificaciones": []
+                },
+                {
+                  "id": "010331",
+                  "nombre": "Barstow BBQ Veggie",
+                  "precio_salon": 17900,
+                  "precio_pedidos_ya": 18600,
+                  "stock": null,
+                  "descontinuado": false,
+                  "especificaciones": []
+                } 
+            ]
+            },
+                "menu_kids": {
+                      "id": "0104",
+                      "articulos": [
+                        {
+                          "id": "010401",
+                          "nombre": "Menu Kids Cheeseburger Simple",
+                          "precio_salon": 14000,
+                          "precio_pedidos_ya": 14500,
+                          "stock": null,
+                          "descontinuado": false,
+                          "especificaciones": []
+                        },
+                        {
+                          "id": "010402",
+                          "nombre": "Menu Kids Cheeseburger Simple Veggie",
+                          "precio_salon": 14000,
+                          "precio_pedidos_ya": 14500,
+                          "stock": null,
+                          "descontinuado": false,
+                          "especificaciones": []
+                        },
+                        {
+                          "id": "010403",
+                          "nombre": "Menu Kids Mila con papitas",
+                          "precio_salon": 13900,
+                          "precio_pedidos_ya": 14400,
+                          "stock": null,
+                          "descontinuado": false,
+                          "especificaciones": []
+                        }
+                      ]
+                    },
+                    "adicionales_extras": {
+                      "id": "0105",
+                      "articulos": [
+                        {
+                          "id": "010501",
+                          "nombre": "Extra Medallón de carne",
+                          "precio_salon": 3200,
+                          "precio_pedidos_ya": 3400,
+                          "stock": null,
+                          "descontinuado": false,
+                          "especificaciones": []
+                        },
+                        {
+                          "id": "010502",
+                          "nombre": "Extra medallon veggie",
+                          "precio_salon": 2000,
+                          "precio_pedidos_ya": 2200,
+                          "stock": null,
+                          "descontinuado": false,
+                          "especificaciones": []
+                        },
+                        {
+                          "id": "010503",
+                          "nombre": "Extra medallon not co",
+                          "precio_salon": 2200,
+                          "precio_pedidos_ya": null,
+                          "stock": null,
+                          "descontinuado": false,
+                          "especificaciones": []
+                        },
+                        {
+                          "id": "010504",
+                          "nombre": "Extra Cheddar feta",
+                          "precio_salon": 1500,
+                          "precio_pedidos_ya": 1700,
+                          "stock": null,
+                          "descontinuado": false,
+                          "especificaciones": []
+                        },
+                        {
+                          "id": "010505",
+                          "nombre": "Extra Dambo",
+                          "precio_salon": 1000,
+                          "precio_pedidos_ya": 1200,
+                          "stock": null,
+                          "descontinuado": false,
+                          "especificaciones": []
+                        },
+                        {
+                          "id": "010506",
+                          "nombre": "Extra Huevo",
+                          "precio_salon": 800,
+                          "precio_pedidos_ya": 1000,
+                          "stock": null,
+                          "descontinuado": false,
+                          "especificaciones": []
+                        },
+                        {
+                          "id": "010507",
+                          "nombre": "Extra Bacon",
+                          "precio_salon": 1200,
+                          "precio_pedidos_ya": 1400,
+                          "stock": null,
+                          "descontinuado": false,
+                          "especificaciones": []
+                        },
+                        {
+                          "id": "010508",
+                          "nombre": "Extra Manteca",
+                          "precio_salon": 800,
+                          "precio_pedidos_ya": 1000,
+                          "stock": null,
+                          "descontinuado": false,
+                          "especificaciones": []
+                        },
+                        {
+                          "id": "010509",
+                          "nombre": "Extra Vegetales (cualquiera)",
+                          "precio_salon": 800,
+                          "precio_pedidos_ya": 1000,
+                          "stock": null,
+                          "descontinuado": false,
+                          "especificaciones": []
+                        },
+                        {
+                          "id": "010510",
+                          "nombre": "Adicional Cheddar Liquido",
+                          "precio_salon": 1000,
+                          "precio_pedidos_ya": 1200,
+                          "stock": null,
+                          "descontinuado": false,
+                          "especificaciones": []
+                        },
+                        {
+                          "id": "010511",
+                          "nombre": "Adicional Bacon Cubo",
+                          "precio_salon": 1100,
+                          "precio_pedidos_ya": 1300,
+                          "stock": null,
+                          "descontinuado": false,
+                          "especificaciones": []
+                        },
+                        {
+                          "id": "010512",
+                          "nombre": "Adicional Verdeo",
+                          "precio_salon": 800,
+                          "precio_pedidos_ya": 1000,
+                          "stock": null,
+                          "descontinuado": false,
+                          "especificaciones": []
+                        },
+                        {
+                          "id": "010513",
+                          "nombre": "Adicional Palta",
+                          "precio_salon": 2200,
+                          "precio_pedidos_ya": 2400,
+                          "stock": null,
+                          "descontinuado": false,
+                          "especificaciones": []
+                        },
+                        {
+                          "id": "010514",
+                          "nombre": "Adicional Salsas (cualquiera)",
+                          "precio_salon": 1200,
+                          "precio_pedidos_ya": 1400,
+                          "stock": null,
+                          "descontinuado": false,
+                          "especificaciones": []
+                        }
+                      ]
+                    },"pizzas": {
+        "id": "0106",
+        "articulos": [
+          {
+            "id": "010601",
+            "nombre": "Margherita",
+            "precio_salon": 21000,
+            "precio_pedidos_ya": 23000,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010602",
+            "nombre": "Fugazzeta",
+            "precio_salon": 21000,
+            "precio_pedidos_ya": 23000,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010603",
+            "nombre": "Pesto Square",
+            "precio_salon": 21000,
+            "precio_pedidos_ya": 23000,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010604",
+            "nombre": "Pepperoni",
+            "precio_salon": 21000,
+            "precio_pedidos_ya": 23000,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010605",
+            "nombre": "1/2 Margherita",
+            "precio_salon": 10500,
+            "precio_pedidos_ya": null,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010606",
+            "nombre": "1/2 Fugazzeta",
+            "precio_salon": 10500,
+            "precio_pedidos_ya": null,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010607",
+            "nombre": "1/2 Pesto Square",
+            "precio_salon": 10500,
+            "precio_pedidos_ya": null,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010608",
+            "nombre": "1/2 Pepperoni",
+            "precio_salon": 10500,
+            "precio_pedidos_ya": null,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010609",
+            "nombre": "Tartas Sin TACC",
+            "precio_salon": 12000,
+            "precio_pedidos_ya": null,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          }
+        ]
+      },
+      "ensaladas": {
+        "id": "0107",
+        "articulos": [
+          {
+            "id": "010701",
+            "nombre": "Caesar",
+            "precio_salon": 14300,
+            "precio_pedidos_ya": 14900,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010702",
+            "nombre": "Caesar con Tofu",
+            "precio_salon": 14300,
+            "precio_pedidos_ya": 14900,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010703",
+            "nombre": "Calabaza Madness",
+            "precio_salon": 14700,
+            "precio_pedidos_ya": 15500,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010704",
+            "nombre": "Calabaza Madness con Tofu",
+            "precio_salon": 14700,
+            "precio_pedidos_ya": 15500,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010705",
+            "nombre": "Poke Crispy Shrimp",
+            "precio_salon": 16900,
+            "precio_pedidos_ya": 17500,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010706",
+            "nombre": "Poke Crispy Tofu",
+            "precio_salon": 16900,
+            "precio_pedidos_ya": 17500,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010707",
+            "nombre": "Poke Bowl Teriyaki",
+            "precio_salon": 14700,
+            "precio_pedidos_ya": 15300,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010708",
+            "nombre": "Poke Bowl Teriyaki con Tofu",
+            "precio_salon": 14700,
+            "precio_pedidos_ya": 15300,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          }
+        ]
+        },"especiales": {
+        "id": "0108",
+        "articulos": [
+          {
+            "id": "010801",
+            "nombre": "American BBQ Ribs",
+            "precio_salon": 24500,
+            "precio_pedidos_ya": null,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010802",
+            "nombre": "American dream",
+            "precio_salon": 19000,
+            "precio_pedidos_ya": 20000,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010803",
+            "nombre": "Shrimp Pasta",
+            "precio_salon": 18500,
+            "precio_pedidos_ya": 19000,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010804",
+            "nombre": "Steak Wrap",
+            "precio_salon": 16800,
+            "precio_pedidos_ya": 17300,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010805",
+            "nombre": "Top of the Rock",
+            "precio_salon": 19000,
+            "precio_pedidos_ya": 20000,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010806",
+            "nombre": "Beef Grill",
+            "precio_salon": 21000,
+            "precio_pedidos_ya": 22500,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010807",
+            "nombre": "Chicken Grill",
+            "precio_salon": 17000,
+            "precio_pedidos_ya": 18000,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010808",
+            "nombre": "Crispy Chicken Wrap",
+            "precio_salon": 15800,
+            "precio_pedidos_ya": 16300,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          }
+        ]
+      },
+      "postres": {
+        "id": "0109",
+        "articulos": [
+          {
+            "id": "010901",
+            "nombre": "Chocotorta",
+            "precio_salon": 7500,
+            "precio_pedidos_ya": 7900,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010902",
+            "nombre": "Key Lime Pie",
+            "precio_salon": 8500,
+            "precio_pedidos_ya": 8900,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010903",
+            "nombre": "NY Cheesecake Berries",
+            "precio_salon": 7500,
+            "precio_pedidos_ya": 6500,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "010904",
+            "nombre": "Ny Cheesecake Maracuya",
+            "precio_salon": 7500,
+            "precio_pedidos_ya": 6500,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          }
+        ]
+      },
+      "ejecutivo": {
+        "id": "0110",
+        "articulos": [
+          {
+            "id": "011001",
+            "nombre": "BURGER DEL MES",
+            "precio_salon": null,
+            "precio_pedidos_ya": null,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "011002",
+            "nombre": "MENU 1",
+            "precio_salon": null,
+            "precio_pedidos_ya": null,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "011003",
+            "nombre": "MENU 2",
+            "precio_salon": null,
+            "precio_pedidos_ya": null,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "011004",
+            "nombre": "MENU 3",
+            "precio_salon": null,
+            "precio_pedidos_ya": null,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "011005",
+            "nombre": "MENU 4",
+            "precio_salon": null,
+            "precio_pedidos_ya": null,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "011006",
+            "nombre": "Cafe Ejecutivo",
+            "precio_salon": null,
+            "precio_pedidos_ya": null,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          }
+        ]
+      },
+      "merienda": {
+        "id": "0111",
+        "articulos": [
+          {
+            "id": "011101",
+            "nombre": "Tostado JYQ + Café",
+            "precio_salon": 5800,
+            "precio_pedidos_ya": 6100,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "011102",
+            "nombre": "Tostadas + Café",
+            "precio_salon": 5800,
+            "precio_pedidos_ya": 6100,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "011103",
+            "nombre": "Avocado Toast + Café",
+            "precio_salon": 9500,
+            "precio_pedidos_ya": 10000,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "011104",
+            "nombre": "Tostadas",
+            "precio_salon": 5300,
+            "precio_pedidos_ya": 5600,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "011105",
+            "nombre": "Tostado",
+            "precio_salon": 5300,
+            "precio_pedidos_ya": 5600,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "011106",
+            "nombre": "Avocado Toast",
+            "precio_salon": 9000,
+            "precio_pedidos_ya": 9500,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "011107",
+            "nombre": "Especial de tarde",
+            "precio_salon": 16000,
+            "precio_pedidos_ya": null,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "011108",
+            "nombre": "Brunchito",
+            "precio_salon": 18500,
+            "precio_pedidos_ya": null,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "011109",
+            "nombre": "Café Pocillo",
+            "precio_salon": 3000,
+            "precio_pedidos_ya": null,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "011110",
+            "nombre": "Café Americano",
+            "precio_salon": 3200,
+            "precio_pedidos_ya": null,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "011111",
+            "nombre": "Café Doble",
+            "precio_salon": 3400,
+            "precio_pedidos_ya": null,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          },
+          {
+            "id": "011112",
+            "nombre": "Lagrima",
+            "precio_salon": 3400,
+            "precio_pedidos_ya": null,
+            "stock": null,
+            "descontinuado": false,
+            "especificaciones": []
+          }
+        ]
+      }
+    }   
+    }              
+    }
+}

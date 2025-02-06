@@ -1,0 +1,12 @@
+.item-list-container {
+    display: grid;
+    grid-row: auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .item-list-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
