@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 import CartWidget from '../CartWidget/CartWidget'
 import './NavBar.css'
 
 export const NavBar = () => {
   const [categoria, setCategoria] = useState("¿Que estas buscando?");
   useEffect(() => {
-    document.title = `Categoria: ${categoria}`  
+    document.title = `${categoria}`  
   },[categoria])
 
   const manejadorCategorias = (categoria) => {
@@ -18,6 +19,7 @@ export const NavBar = () => {
         <h3>{categoria}</h3>
             <nav>
                 <ul>
+                    <button ><Link to={`/`} > Home </Link></button>
                     <button onClick={()=>manejadorCategorias("Indumentaria Femenina")}> Indumentaria Femenina</button>
                     <button onClick={()=>manejadorCategorias("Indumentaria Masculina")}> Indumentaria Masculina</button>
                     <button onClick={()=>manejadorCategorias("Accesorios")}> Accesorios </button>
