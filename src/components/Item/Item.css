@@ -1,42 +1,4 @@
-/* .item {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 10px;
-    width: 200px;
-    text-align: center;
-    background-color: #f9f9f9;
-  }
-  
-  .item img {
-    width: 100%;
-    height: auto;
-    border-radius: 4px;
-  }
-  
-  .item h4 {
-    font-size: 18px;
-    margin: 10px 0;
-  }
-  
-  .item p {
-    font-size: 14px;
-    color: #333;
-  }
-  
-  .item button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 10px;
-  }
-  
-  .item button:hover {
-    background-color: #0056b3;
-  }
-   */
+
    .item {
     background: white;
     padding: 10px;

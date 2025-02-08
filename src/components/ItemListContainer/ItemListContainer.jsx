@@ -1,21 +1,31 @@
-import React, { useEffect, useState } from 'react'
-import { getAllProducts } from '../Asynchornic/Async';
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+import { getAllProducts, getCategoryProducts } from '../Asynchornic/Async';
 import ItemList from '../ItemList/ItemList';
-import './ItemListContainer.css'
+import './ItemListContainer.css';
 
 const ItemListContainer = () => {
-    const [productos, setProductos] = useState ([]);
+  const [productos, setProductos] = useState([]);
+  const { categoria } = useParams();
 
-    useEffect(() => {
-        getAllProducts().then(respuesta => setProductos(respuesta))
+  useEffect(() => {
+    if (categoria) {
+      getCategoryProducts(categoria)
+        .then(respuesta => setProductos(respuesta))
         .catch(error => console.log(error));
-    },[]);
-  return (
-    <div className = "item-list-container">
-        <h2>Todos los productos</h2>
-        <ItemList productos={productos} />
-    </div>
-  )
-}
+    } else {
+      getAllProducts()
+        .then(respuesta => setProductos(respuesta))
+        .catch(error => console.log(error));
+    }
+  }, [categoria]);
 
-export default ItemListContainer
+  return (
+    <div className="item-list-container">
+      <h2>{categoria ? `Categoría: ${decodeURIComponent(categoria)}` : "Todos los productos"}</h2>
+      <ItemList productos={productos} />
+    </div>
+  );
+};
+
+export default ItemListContainer;

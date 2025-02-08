@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getProduct } from "../Asynchornic/Async";
-import "./ItemDetalles.css"; // Importamos el CSS
+import "./ItemDetalles.css";
 
 const ItemDetalles = () => {
   const { id } = useParams();

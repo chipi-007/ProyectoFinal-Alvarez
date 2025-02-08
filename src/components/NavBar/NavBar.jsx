@@ -13,20 +13,20 @@ export const NavBar = () => {
     setCategoria(categoria);
   }
 
-  return (
-    <>
-        <header>
-        <h3>{categoria}</h3>
-            <nav>
-                <ul>
-                    <button ><Link to={`/`} > Home </Link></button>
-                    <button onClick={()=>manejadorCategorias("Indumentaria Femenina")}> Indumentaria Femenina</button>
-                    <button onClick={()=>manejadorCategorias("Indumentaria Masculina")}> Indumentaria Masculina</button>
-                    <button onClick={()=>manejadorCategorias("Accesorios")}> Accesorios </button>
-                </ul>
-            </nav>
-            <CartWidget/>
-        </header>
-    </>
-  )
-}
+   return (
+    <header>
+      <h3>¿Qué estás buscando?</h3>
+      <nav>
+        <ul>
+          <button  onClick={()=>manejadorCategorias("Indumentaria Femenina")}><Link to="/">Catálogo Completo</Link></button>
+          <button onClick={()=>manejadorCategorias("Indumentaria Femenina")}><Link to={`/products/category/${encodeURIComponent("women's clothing")}`}>Indumentaria Femenina</Link></button>
+          <button onClick={()=>manejadorCategorias("Indumentaria Masculina")}><Link to={`/products/category/${encodeURIComponent("men's clothing")}`}>Indumentaria Masculina</Link></button>
+          <button onClick={()=>manejadorCategorias("Joyeria")}><Link to={`/products/category/${encodeURIComponent("jewelery")}`}>Joyería</Link></button>
+          <button onClick={()=>manejadorCategorias("Electronica")}><Link to={`/products/category/${encodeURIComponent("electronics")}`}>Electrónica</Link></button>
+        </ul>
+      </nav>
+      <CartWidget />
+    </header>
+  );
+};
+
