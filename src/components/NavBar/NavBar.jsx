@@ -18,7 +18,7 @@ export const NavBar = () => {
       <h3>¿Qué estás buscando?</h3>
       <nav>
         <ul>
-          <button  onClick={()=>manejadorCategorias("Indumentaria Femenina")}><Link to="/">Catálogo Completo</Link></button>
+          <button  onClick={()=>manejadorCategorias("Home")}><Link to="/">Catálogo Completo</Link></button>
           <button onClick={()=>manejadorCategorias("Indumentaria Femenina")}><Link to={`/products/category/${encodeURIComponent("women's clothing")}`}>Indumentaria Femenina</Link></button>
           <button onClick={()=>manejadorCategorias("Indumentaria Masculina")}><Link to={`/products/category/${encodeURIComponent("men's clothing")}`}>Indumentaria Masculina</Link></button>
           <button onClick={()=>manejadorCategorias("Joyeria")}><Link to={`/products/category/${encodeURIComponent("jewelery")}`}>Joyería</Link></button>
