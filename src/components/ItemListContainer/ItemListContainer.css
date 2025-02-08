@@ -1,12 +1,13 @@
-.item-list-container {
-    display: grid;
-    grid-row: auto;
+
+   .item-list-container {
     text-align: center;
     padding: 20px;
   }
   
-  .item-list-container h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+  .item-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
   }
   

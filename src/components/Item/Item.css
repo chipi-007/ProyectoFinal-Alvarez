@@ -1,4 +1,4 @@
-.item {
+/* .item {
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 10px;
@@ -35,5 +35,26 @@
   
   .item button:hover {
     background-color: #0056b3;
+  }
+   */
+   .item {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .item:hover {
+    transform: scale(1.05);
+  }
+  
+  .item img {
+    max-width: 100px;
+  }
+  
+  .item button {
+    background-color: #4caf50;
+    color: white;
   }
   

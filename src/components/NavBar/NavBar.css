@@ -1,70 +1,24 @@
-/* Contenedor del header */
+
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(37, 180, 180);
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 5px;
-}
-
-/* Estilos de los botones */
-button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 5px;
-    background-color: #ffffff;
-    color: #333;
-    border: 2px solid #33b5b5;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: all 0.3s ease;
-}
-
-button:hover {
-    background-color: #33b5b5;
-    color: #fff;
-    transform: translateY(-2px);
-}
-
-button:focus {
-    outline: none;
-    box-shadow: 0 0 5px rgba(51, 181, 181, 0.8);
-}
-
-/* Contenedor de los elementos de la navegación */
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-start;
-}
-
-/* Espaciado entre los elementos del nav */
-nav ul button {
-    margin-right: 15px;
-}
-
-/* Estilos para el título de la categoría */
-h3 {
-    font-size: 22px;
-    color: #fff;
-    font-weight: bold;
-    margin: 0;
-    min-width: 250px; /* Mantiene el tamaño constante */
-    text-align: center;
-}
-
-/* Estilos para CartWidget (si tiene un ícono o contador) */
-.cart-widget {
-    font-size: 20px;
+    background-color: #333;
     color: white;
-    margin: 10px;
-}
-
-.cart-widget:hover {
-    transform: scale(1.1);
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    background-color: #ff9800;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  

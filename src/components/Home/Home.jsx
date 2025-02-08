@@ -1,6 +1,7 @@
 import React from 'react'
 import { TituloPrincipal } from '../TituloPrincipal/TituloPrincipal'
 import ItemListContainer from '../ItemListContainer/ItemListContainer'
+import './Home.css'
 
 export const Home = () => {
   return (

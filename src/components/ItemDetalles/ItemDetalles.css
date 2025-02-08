@@ -1,4 +1,4 @@
-.item-detalles {
+/* .item-detalles {
     max-width: 600px;
     margin: 40px auto;
     padding: 20px;
@@ -47,5 +47,23 @@
   
   .error {
     color: red;
+  }
+   */
+   .item-detalles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .item-detalles img {
+    max-width: 200px;
+  }
+  
+  .price {
+    font-size: 1.2rem;
+    color: green;
   }
   
