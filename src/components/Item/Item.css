@@ -15,8 +15,29 @@
     max-width: 100px;
   }
   
+  .link-button {
+    text-decoration: none; 
+    color: inherit; 
+    display: block; 
+    width: 100%;
+    height: 100%;
+  }
+  
   .item button {
-    background-color: #4caf50;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
     color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .item button:visited{
+    color: inherit
+  }
+  
+  .item button:hover {
+    background-color: #0056b3;
   }
   
