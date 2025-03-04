@@ -22,17 +22,17 @@ button {
 }
 
 button a {
-  text-decoration: none; /* Elimina el subrayado */
-  color: inherit; /* Hereda el color del botón */
-  display: block; /* Hace que el enlace ocupe todo el botón */
+  text-decoration: none; 
+  color: inherit;
+  display: block; 
   width: 100%;
   height: 100%;
 }
 
 button a:visited {
-  color: inherit; /* Evita el color violeta en enlaces visitados */
+  color: inherit; 
 }
 
 button:hover {
-  background-color: #e68900; /* Color al pasar el mouse */
+  background-color: #e68900; 
 }

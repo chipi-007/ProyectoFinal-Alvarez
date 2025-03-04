@@ -7,11 +7,17 @@ import { useContext } from "react";
 import { Contador } from "../Contador/Contador";
 
 const ItemDetalles = () => {
+
+  const {agregarProd } = useContext(CartContext);
+
   const [agregarCantidad, setAgregarCantidad] = useState(0);
+
 
   const manejadorCantidad = (cantidad) => {
     setAgregarCantidad(cantidad);
-    console.log("Cantidad agregada:", cantidad); // Para debug
+    const item = { id: producto.id, title: producto.title, price: producto.price };
+    console
+    agregarProd(item, cantidad);
   };
 
   const { id } = useParams();
@@ -37,7 +43,7 @@ const ItemDetalles = () => {
       {agregarCantidad > 0 ? (
         <Link to="/cart"> Terminar Compra </Link>
       ) : (
-        <Contador inicial={1} stock={producto.stock =10} funcionAgregar={manejadorCantidad} />
+        <Contador inicial={1} stock={10} funcionAgregar={manejadorCantidad} />
       )}
     </div>
   );

@@ -1,3 +1,36 @@
-div{
-    font-size: 20px;
-}
+.cart-widget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .cart-link {
+    font-size: 30px;
+    color: #333;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Estilo para el contador de productos en el carrito */
+  .cart-count {
+    background-color: #ff6347; 
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-left: 5px;
+    font-size: 15px;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    display: inline-block;
+  }
+  
+  /* Estilo del icono y el texto */
+  .cart-link:hover {
+    color: #ff6347;
+  }
+  
